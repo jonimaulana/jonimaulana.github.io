@@ -8,8 +8,12 @@
 section {
   padding-top: 5rem;
 }
-.gallery-img {
+.gallery {
   width: 100%;
+}
+.gallery:hover{
+  transform: scale(1.3);
+  transition: 0.5s ease;
 }
 
 #gallery .row > * {
